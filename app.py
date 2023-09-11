@@ -46,7 +46,6 @@ def dump_and_reset():
 @auth.login_required
 def config():
   bunk_of_string = load_lang(session.get('lang'), 'pt_BR')
-
   name = u_db.get(str(session.get('username'))).get('name')
   return render_template('home.html', name=name, bunk_of_string=bunk_of_string)
 
