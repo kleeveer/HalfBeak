@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  <title>Cadastro de Itens da loja</title>
+{% endblock %}
+{% block content %}
+  <div class="w-md flex flex-col bg-white p-10 rounded">
+    <h1 class="mb-2 text-xl">Cadastre o Item</h1>
+    
+    <form method="post">
+      <div class="flex flex-col mb-2">
+        <label for="nome" class="text-gray-700">Nome do Item:</label>
+        <input type="text" id="nome" class="p-2 w-full rounded" name="name" required placeholder="Nome do item (margarida luzia)">
+      <div class="flex flex-col mb-2">  
+        <label for="preco" class="text-gray-700">Código do Item:</label>
+        <input type="number" id="código" class="p-2 w-full rounded" name="code" required placeholder="XXXX-XXXX-XXXX-XX" maxlength="14">
+
+      <div class="flex flex-col mb-2">
+        <label for="categoria" class="text-gray-700">Categoria:</label>
+        <select id="categoria" name="category" class="p-2 w-full rounded"> 
+          <option value="alimentos">Alimentos</option>
+          <option value="limpeza">Produtos de Limpeza</option>
+          <option value="higiene">Produtos de Higiene</option>
+          <option value="bebidas">Bebidas</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col mb-2">
+        <label for="preco" class="text-gray-700">Preço:</label>
+        <input type="number" class="p-2 w-full rounded" id="preco" name="price" step="0.01" required placeholder="preço em reais">
+      </div>
+      <div class="flex flex-col mb-2">
+        <label for="quantidade" class="text-gray-700">Quantidade:</label>
+        <input type="number" class="p-2 w-full rounded" id="quantidade" name="amount" required placeholder="quantidade">
+      </div>
+      
+      <input type="submit" class="bg-orange-500 text-white p-2 w-full rounded" value="Cadastrar" style="width:100%;">
+    </form>
+  </div>
+{% endblock %}

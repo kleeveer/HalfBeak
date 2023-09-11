@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Lista de Logs{% endblock %}
+{% block head %}
+{% endblock %}
+{% block content %}
+<div class="bg-white p-10 max-w-lg w-full">
+    <h1 class="text-3xl">{{ languages.get(14) }}</h1>
+    <p class="text-slate-800">{{ request.path }}</p>
+    <div class="flex flex-col gap-2 mt-4">
+        <a href="{{ (request.path + ('/' if request.path[-1] != '/' else '') + '..') }}" class="bg-orange-500 p-6 text-xl text-white rounded hover:bg-gray-200 hover:text-orange-500">
+            ...
+        </a>
+
+        {% for file in files %}
+        <a href="{{ request.path + ('/' if request.path[-1] != '/' else '') + file }}" class="bg-orange-500 p-6 text-mb text-white rounded hover:bg-gray-200 hover:text-orange-500">
+            {{ file }}
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

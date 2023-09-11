@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+      <title>{% block title %}{% endblock %} - Halfbeak</title>
+    {% endblock %}
+    <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="/static/animations/waves.css">
+  </head>
+  <style>
+    body * {
+      transition: 0.5s all;
+    }
+  </style>
+  <body class="min-h-screen flex flex-col wave-bg">
+    <header class="flex flex-row bg-orange-500 p-4 justify-around align-items">
+      <div class="flex flex-row justify-center items-center">
+        <a href="/">
+          <h1 class="text-3xl text-white flex flex-row justify-center items-center">Halfbeak</h1>
+        </a>
+      </div>
+      <nav class="flex flex-row border-2 border-orange-500 hover:border-white hover:border-2">
+        <a class="text-white flex justify-center items-center hover:bg-white hover:text-orange-500 p-4" href='{{ url_for("home") }}'>
+          <span>Home</span>
+        </a>
+        <a class="text-white flex justify-center items-center hover:bg-white hover:text-orange-500 p-4" href='{{ url_for("product_manager.list_products") }}'>
+          <span>Produtos</span>
+        </a>
+        <a class="text-white flex justify-center items-center hover:bg-white hover:text-orange-500 p-4" href='#'>
+          <span>Configurações</span>
+        </a>
+        <a class="text-white flex justify-center items-center hover:bg-white hover:text-orange-500 p-4" href='{{ url_for("auth.logout") }}'>
+          <span>Sair</span>
+        </a>
+      </nav>
+    </header>
+    <main class="flex-grow flex flex-col justify-center items-center">
+      {% block content %}{% endblock %}
+    </main>    
+    <footer class="bg-gray-900 text-white text-center">
+      <h5> Halfbeak &copy; 2023. Todos os direitos reservados.</h4>
+    </footer>
+    <div class='air air1'></div>
+    <div class='air air2'></div>
+    <div class='air air3'></div>
+    <div class='air air4'></div>
+  </body>
+</html>

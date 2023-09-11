@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+  <title>{{ languages.get(15) }}</title>
+{% endblock %}
+{% block content %}
+  <div class="w-md flex flex-col bg-white p-10 rounded">
+    <h1 class="mb-2 text-xl">{{ languages.get(16) }}</h1>
+    
+    <form method="post">
+      <div class="flex flex-col mb-2">
+        <label for="nome" class="text-gray-700">{{ languages.get(17) }}</label>
+        <input type="text" id="nome" class="p-2 w-full rounded" name="name" value='{{data.name}}' required placeholder="Nome do item (margarida luzia)">
+      <div class="flex flex-col mb-2">  
+        <label for="preco" class="text-gray-700">{{ languages.get(18) }}</label>
+        <input type="number" id="código" class="p-2 w-full rounded" name="code" value='{{id}}' required placeholder="XXXX-XXXX-XXXX-XX" maxlength="14">
+
+      <div class="flex flex-col mb-2">
+        <label for="categoria" class="text-gray-700">{{ languages.get(19) }}</label>
+        <select id="categoria" name="category" class="p-2 w-full rounded" value='{{data.category}}'> 
+          <option value="alimentos">{{ languages.get(20) }}</option>
+          <option value="limpeza">{{ languages.get(21) }}</option>
+          <option value="higiene">{{ languages.get(22) }}</option>
+          <option value="bebidas">{{ languages.get(23) }}</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col mb-2">
+        <label for="preco" class="text-gray-700">{{ languages.get(24) }}</label>
+        <input type="number" class="p-2 w-full rounded" id="preco" value='{{data.price}}' name="price" step="0.01" required placeholder="preço em reais">
+      </div>
+      <div class="flex flex-col mb-2">
+        <label for="quantidade" class="text-gray-700">{{ languages.get(25) }}</label>
+        <input type="number" class="p-2 w-full rounded" id="quantidade" name="amount" value='{{data.amount}}' required placeholder="quantidade">
+      </div>
+      
+      <input type="submit" class="bg-orange-500 text-white p-2 w-full rounded" value="{{ languages.get(26) }}" style="width:100%;">
+    </form>
+  </div>
+{% endblock %}

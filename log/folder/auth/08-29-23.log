@@ -1,0 +1,88 @@
+#H&-horario&-ip&-tipo&-status&-alvo
+#D&-09:41:25&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-09:41:34&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/auth
+#D&-09:41:36&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/auth/08-29-23.log
+#D&-09:42:09&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/auth/
+#D&-09:42:11&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-09:42:13&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/logs
+#D&-09:42:14&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/logs/08-29-23.log
+#D&-09:42:42&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/logs/
+#D&-09:42:44&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-09:42:48&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-09:42:54&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-09:42:55&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-09:43:00&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/list/item
+#D&-09:43:02&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-09:43:05&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/product_manager
+#D&-09:43:07&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/product_manager/08-29-23.log
+#D&-09:43:11&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/33333333
+#D&-09:43:15&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/product_manager/08-29-23.log
+#D&-09:43:20&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/33333333
+#D&-09:43:21&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/register
+#D&-09:43:23&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/product_manager/08-29-23.log
+#D&-09:44:30&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-09:44:30&-172.31.196.1&-login&-acesso&----
+#D&-09:44:31&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-09:44:31&-172.31.196.1&-login&-acesso&----
+#D&-09:44:37&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/register
+#D&-09:44:42&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/33333333
+#D&-09:44:44&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/33333333
+#D&-09:44:44&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/list/item
+#D&-09:44:49&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/product_manager/08-29-23.log
+#D&-10:05:04&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-10:05:04&-172.31.196.1&-login&-acesso&----
+#D&-10:06:24&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-10:07:08&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-10:07:09&-172.31.196.1&-login&-acesso&----
+#D&-10:08:58&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-10:08:59&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-10:08:59&-172.31.196.1&-login&-acesso&----
+#D&-10:09:26&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-10:10:11&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-10:10:17&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak--tabisc.repl.co/
+#D&-10:10:18&-172.31.196.1&-login&-acesso&----
+#D&-10:10:48&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-10:49:45&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-10:49:46&-172.31.196.1&-login&-acesso&----
+#D&-11:01:30&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-11:26:28&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:26:29&-172.31.196.1&-login&-acesso&----
+#D&-11:26:30&-172.31.196.1&-login&-acesso&----
+#D&-11:43:17&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:43:17&-172.31.196.1&-login&-acesso&----
+#D&-11:43:34&-172.31.196.1&-login&-sucesso&-44444444444
+#D&-11:43:34&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-11:43:42&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/
+#D&-11:43:44&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/log/
+#D&-11:43:45&-172.31.196.1&-login&-acesso&----
+#D&-11:43:48&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/auth
+#D&-11:43:50&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/auth/08-29-23.log
+#D&-11:43:50&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/log/auth
+#D&-11:43:51&-172.31.196.1&-login&-acesso&----
+#D&-11:44:41&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/logs
+#D&-11:44:43&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/log/logs/08-29-23.log
+#D&-11:44:43&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/log/logs
+#D&-11:44:45&-172.31.196.1&-login&-acesso&----
+#D&-11:46:42&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/
+#D&-11:46:48&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/register
+#D&-11:47:12&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/register
+#D&-11:47:13&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/list/item
+#D&-11:47:18&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/123456
+#D&-11:47:26&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/edit/item/123456
+#D&-11:47:26&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/product/list/item
+#D&-11:47:35&-172.31.196.1&-movimento restrito&-sucesso&-http://halfbeak.tabisc.repl.co/auth/logout
+#D&-11:47:35&-172.31.196.1&-logout&-acesso&----
+#D&-11:47:35&-172.31.196.1&-logout&-sucesso&-44444444444
+#D&-11:47:35&-172.31.196.1&-login&-acesso&----
+#D&-11:47:54&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/auth/logout
+#D&-11:47:54&-172.31.196.1&-login&-acesso&----
+#D&-11:47:59&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:48:00&-172.31.196.1&-login&-acesso&----
+#D&-11:48:05&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/product/list/item
+#D&-11:48:05&-172.31.196.1&-login&-acesso&----
+#D&-11:48:13&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:48:13&-172.31.196.1&-login&-acesso&----
+#D&-11:48:15&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:48:16&-172.31.196.1&-login&-acesso&----
+#D&-11:48:19&-172.31.196.1&-movimento restrito&-falhou&-http://halfbeak.tabisc.repl.co/
+#D&-11:48:19&-172.31.196.1&-login&-acesso&----
