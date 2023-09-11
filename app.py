@@ -70,9 +70,5 @@ if __name__ == '__main__':
     log.logger(
         ['configurando', 'falhou', f'falhou a carregar blue prints: {e}'])
 
-  try:
-    log.logger(['iniciando', 'sucesso', 'o sistema foi iniciado'])
-    app.run(host='0.0.0.0', port=5000, debug=True)
-  except Exception as e:
-    log.logger(
-        ['iniciando', 'falhou', f'o sistema falhou a iniciar iniciado: {e}'])
+  log.logger(['iniciando', 'sucesso', 'o sistema foi iniciado'])
+  app.run(host='0.0.0.0', port=81, debug=True)
