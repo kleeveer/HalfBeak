@@ -42,6 +42,16 @@ def dump_and_reset():
   return redirect(url_for('home'))
 
 
+# Rota para a página inicial
+@app.route('/')
+@auth.login_required
+def config():
+  bunk_of_string = load_lang(session.get('lang'),'pt_BR')
+  
+  name = u_db.get(str(session.get('username'))).get('name')
+  return render_template('home.html', name=name, bunk_of_string=bunk_of_string)
+
+
 @app.route('/set/lang/<lang>')
 def set_lang(lang):
   if lang in current_languages:
@@ -49,7 +59,7 @@ def set_lang(lang):
   else:
     session['lang'] = 'pt_BR'
     
-  return redirect(url_for('home'))
+  return redirect(url_for('config'))
 
 
 if __name__ == '__main__':
